@@ -1,0 +1,14 @@
+---
+
+plugins:
+  - stylelint-order
+
+rules:
+  declaration-empty-line-before: null
+  rule-nested-empty-line-before: always
+  order/order: [ custom-properties, declarations ]
+
+
+extends:
+  - stylelint-config-standard-scss
+  - stylelint-config-prettier
